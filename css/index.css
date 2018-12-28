@@ -1,0 +1,55 @@
+html{
+
+    margin: 0 auto;
+    background-color: rgba(187, 187, 187, 0.24);
+}
+body {padding: 20px;
+
+    background-color: white;
+    font-size: 16px;
+}
+header h1{font-size: 40px;
+    width: 180px;
+    color: rgb(77, 113, 129);
+    margin:  0 20px 0 40px ;
+    border-right: 2px solid #4d7181;
+    float: left;
+}
+header p{color: #4d7181;
+    line-height: 26px;
+}
+.p1{font-size:14px;
+}
+.p2{font-size:20px;
+}
+.img1{margin: 20px 0 20px 0 ;}
+h2{font-size: 25px; ;
+background: url("../xiaotubiao.jpg");
+background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+    margin:10px 0 -4px 0;
+    color: white;
+
+}
+.one{width:500px;
+    padding: 0 0 0 20px;}
+dt{width: 250px;
+
+}
+.two{padding: 0 0 0 20px;
+}
+.three{padding: 0 0 0 20px;
+}
+.four{padding: 0 0 0 20px}
+ul{margin: 0 0 0 20px;
+ }
+section{ border-left: 2px solid #4d7181}
+div{border-top: 2px solid #4d7181;
+    line-height: 25px;
+}
+.five{margin: 0 0 0 20px;}
+@media  all and (max-width: 640px){
+    article{width: 100%;box-sizing: border-box}
+    .img1{width: 100%;float: none}
+    .one{width: 100%}
+}
